@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B18CE4E22640C520065CC91 /* TGGeneralPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B18CE4D22640C520065CC91 /* TGGeneralPreferencesViewController.swift */; };
+		6BFDB5092263003C004DBA13 /* TGPreferences.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BFDB5082263003C004DBA13 /* TGPreferences.storyboard */; };
+		6BFDB50B22630337004DBA13 /* TGPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFDB50A22630337004DBA13 /* TGPreferencesViewController.swift */; };
+		6BFDB50D226303B7004DBA13 /* TGPreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFDB50C226303B7004DBA13 /* TGPreferencesWindowController.swift */; };
 		9F0AE6872191D29D00A8B53A /* ContextSearchMessageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0AE6862191D29D00A8B53A /* ContextSearchMessageItem.swift */; };
 		9F0AE6B52199904400A8B53A /* sound_a.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9F0AE6B42199904400A8B53A /* sound_a.caf */; };
 		9F0AE6BC2199BBB900A8B53A /* MediaPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0AE6BB2199BBB900A8B53A /* MediaPlayerView.swift */; };
@@ -72,7 +76,6 @@
 		9F21A7D521C16CB90037784F /* InstantPagePeerReferenceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21A7D421C16CB90037784F /* InstantPagePeerReferenceItem.swift */; };
 		9F21A7DC21C290E00037784F /* InstantPageTableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21A7DB21C290E00037784F /* InstantPageTableItem.swift */; };
 		9F21F65520B5A72800332C85 /* LocationModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21F65420B5A72800332C85 /* LocationModalController.swift */; };
-		9F21F65D20B5A9C900332C85 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F21F65C20B5A9C900332C85 /* MapKit.framework */; };
 		9F262D5F21BFD5BC006817CD /* LocalizationPreviewModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F262D5E21BFD5BC006817CD /* LocalizationPreviewModalController.swift */; };
 		9F27EFF920C6B8EE00682B76 /* PassportController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10CE8720610127002DD61A /* PassportController.swift */; };
 		9F3D5F6322044D8700CB0CAA /* AppUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D5F6222044D8700CB0CAA /* AppUpdateViewController.swift */; };
@@ -783,6 +786,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6B18CE4D22640C520065CC91 /* TGGeneralPreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGGeneralPreferencesViewController.swift; sourceTree = "<group>"; };
+		6BFDB5082263003C004DBA13 /* TGPreferences.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TGPreferences.storyboard; sourceTree = "<group>"; };
+		6BFDB50A22630337004DBA13 /* TGPreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGPreferencesViewController.swift; sourceTree = "<group>"; };
+		6BFDB50C226303B7004DBA13 /* TGPreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGPreferencesWindowController.swift; sourceTree = "<group>"; };
 		9F0AE6862191D29D00A8B53A /* ContextSearchMessageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextSearchMessageItem.swift; sourceTree = "<group>"; };
 		9F0AE6B42199904400A8B53A /* sound_a.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_a.caf; sourceTree = "<group>"; };
 		9F0AE6BB2199BBB900A8B53A /* MediaPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerView.swift; sourceTree = "<group>"; };
@@ -840,7 +847,6 @@
 		9F21A7D421C16CB90037784F /* InstantPagePeerReferenceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantPagePeerReferenceItem.swift; sourceTree = "<group>"; };
 		9F21A7DB21C290E00037784F /* InstantPageTableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantPageTableItem.swift; sourceTree = "<group>"; };
 		9F21F65420B5A72800332C85 /* LocationModalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModalController.swift; sourceTree = "<group>"; };
-		9F21F65C20B5A9C900332C85 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9F262D5E21BFD5BC006817CD /* LocalizationPreviewModalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationPreviewModalController.swift; sourceTree = "<group>"; };
 		9F388C8B213550C500830715 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
 		9F3D5F6222044D8700CB0CAA /* AppUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdateViewController.swift; sourceTree = "<group>"; };
@@ -1715,7 +1721,6 @@
 				C2FBC1D91DC61B050063A23B /* SwiftSignalKitMac.framework in Frameworks */,
 				C2FBC1D71DC61AFF0063A23B /* TelegramCoreMac.framework in Frameworks */,
 				C259ED1E1DB956C1008E6712 /* QuartzCore.framework in Frameworks */,
-				9F21F65D20B5A9C900332C85 /* MapKit.framework in Frameworks */,
 				C250B0351DB78A0A004E9FBE /* Quartz.framework in Frameworks */,
 				C250B0331DB788B3004E9FBE /* Foundation.framework in Frameworks */,
 				C234CA911D97E117003023F7 /* PostboxMac.framework in Frameworks */,
@@ -1729,6 +1734,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BFDB50722630016004DBA13 /* preferences */ = {
+			isa = PBXGroup;
+			children = (
+				6BFDB5082263003C004DBA13 /* TGPreferences.storyboard */,
+				6BFDB50A22630337004DBA13 /* TGPreferencesViewController.swift */,
+				6B18CE4D22640C520065CC91 /* TGGeneralPreferencesViewController.swift */,
+				6BFDB50C226303B7004DBA13 /* TGPreferencesWindowController.swift */,
+			);
+			name = preferences;
+			sourceTree = "<group>";
+		};
 		9F0AE6BA2199BBA400A8B53A /* media-player */ = {
 			isa = PBXGroup;
 			children = (
@@ -2510,6 +2526,7 @@
 		C22E062F1D80439800A11C88 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				6BFDB50722630016004DBA13 /* preferences */,
 				9F3D5F6122044D3500CB0CAA /* updater */,
 				9F0AE6BA2199BBA400A8B53A /* media-player */,
 				D071E89F21496D77001B6024 /* touchbar */,
@@ -3996,7 +4013,6 @@
 				D0675D6A217E20B9004900A7 /* Zip.framework */,
 				9F388C8B213550C500830715 /* HockeySDK.framework */,
 				9F13EE182100B6DA00562E53 /* Contacts.framework */,
-				9F21F65C20B5A9C900332C85 /* MapKit.framework */,
 				9F0BCD9E2087BABC001D8D8A /* Sparkle.framework */,
 				9FFAE513205AB50C000C028E /* libz.tbd */,
 				9FFAE510205AB4AB000C028E /* libbz2.tbd */,
@@ -4123,15 +4139,18 @@
 					};
 					D098C7141D7E175A007784E4 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 6N38VWS5BX;
+						DevelopmentTeam = 24NM3W62J4;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.Mac = {
 								enabled = 1;
 							};
-							com.apple.Maps.Mac = {
+							com.apple.HardenedRuntime = {
 								enabled = 1;
+							};
+							com.apple.Maps.Mac = {
+								enabled = 0;
 							};
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -4215,6 +4234,7 @@
 				D098C71B1D7E175A007784E4 /* Assets.xcassets in Resources */,
 				C2CFCABE1EBB4A4D00843F6A /* voip_connecting.mp3 in Resources */,
 				D098C71E1D7E175A007784E4 /* MainMenu.xib in Resources */,
+				6BFDB5092263003C004DBA13 /* TGPreferences.storyboard in Resources */,
 				C2844AE01DA90C8A009308DC /* emoji.txt in Resources */,
 				9FC8ADA8206A77E00094F7B4 /* countries in Resources */,
 				C21A48B21F7D0D3F0095ADB1 /* VideoMessage.fsh in Resources */,
@@ -4324,6 +4344,7 @@
 				C27AAFED1DEB1D72009B9629 /* SignalUtils.swift in Sources */,
 				C253A9631D91A90100CDC850 /* ChatFileMediaItem.swift in Sources */,
 				C24FD4101F20FBFB00A97196 /* RecentUsedEmoji.swift in Sources */,
+				6BFDB50B22630337004DBA13 /* TGPreferencesViewController.swift in Sources */,
 				C219E1D71D8869F20042F0C8 /* ChatHoleRowItem.swift in Sources */,
 				C253A95F1D9165CD00CDC850 /* webp.m in Sources */,
 				9F1668B82007E3BC00DD39FB /* ThemeGridControllerItem.swift in Sources */,
@@ -4495,6 +4516,7 @@
 				C2E40A1B1E37ADAF0099AC7D /* PeerMediaEmptyRowItem.swift in Sources */,
 				9F9206F020727AF30054E581 /* ChangePhoneNumberContainerView.swift in Sources */,
 				C239BE951E61F15600C2C453 /* LoginOthersAccountModal.swift in Sources */,
+				6B18CE4E22640C520065CC91 /* TGGeneralPreferencesViewController.swift in Sources */,
 				C2B6488C1EB2533800BA574B /* TGGifConverter.m in Sources */,
 				C22674411DC13165000BA9ED /* GridHoleItem.swift in Sources */,
 				C250B01A1DB66B44004E9FBE /* InAppLinks.swift in Sources */,
@@ -4837,6 +4859,7 @@
 				C27AAFEF1DEB2EA9009B9629 /* EmptyComposeController.swift in Sources */,
 				9F1890932238F3DC00665EF5 /* DownloadedFilesPaths.swift in Sources */,
 				C22B63591D967F4500085C19 /* TGModernGrowingTextView.m in Sources */,
+				6BFDB50D226303B7004DBA13 /* TGPreferencesWindowController.swift in Sources */,
 				C2B4D0C11E34E07100CBC4E6 /* PrettyGridUtils.swift in Sources */,
 				9FFAE4EE205A8C89000C028E /* FFMpegPacket.swift in Sources */,
 				C27A8E991EC9D48000C8E7E7 /* QuickSwitcherModalController.swift in Sources */,
@@ -5023,11 +5046,12 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = "Telegram-Mac/Telegram-Mac.entitlements";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				DEVELOPMENT_TEAM = 24NM3W62J4;
 				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5059,7 +5083,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies -D BETA";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.keepcoder.Telegram;
+				PRODUCT_BUNDLE_IDENTIFIER = cf.s0ph0s.Telegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
@@ -5156,11 +5180,12 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = "Telegram-Mac/Telegram-Mac.entitlements";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				DEVELOPMENT_TEAM = 24NM3W62J4;
 				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -5192,7 +5217,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies -D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.keepcoder.Telegram;
+				PRODUCT_BUNDLE_IDENTIFIER = cf.s0ph0s.Telegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -5284,10 +5309,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = "Telegram-Mac/Telegram-Mac.entitlements";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				DEVELOPMENT_TEAM = 24NM3W62J4;
 				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -5318,7 +5344,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies -D STABLE";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.keepcoder.Telegram;
+				PRODUCT_BUNDLE_IDENTIFIER = cf.s0ph0s.Telegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Telegram-Mac/Telegram-Mac-Bridging-Header.h";
@@ -5411,8 +5437,9 @@
 				CODE_SIGN_ENTITLEMENTS = "Telegram-Mac/Telegram-Mac.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				DEVELOPMENT_TEAM = 24NM3W62J4;
 				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -5444,7 +5471,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies -D APP_STORE";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.keepcoder.Telegram;
+				PRODUCT_BUNDLE_IDENTIFIER = cf.s0ph0s.Telegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Telegram-Mac/Telegram-Mac-Bridging-Header.h";
@@ -5540,8 +5567,9 @@
 				CODE_SIGN_ENTITLEMENTS = "Telegram-Mac/Telegram-Mac.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				DEVELOPMENT_TEAM = 24NM3W62J4;
 				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -5573,7 +5601,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies -D APP_STORE";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.keepcoder.Telegram;
+				PRODUCT_BUNDLE_IDENTIFIER = cf.s0ph0s.Telegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Telegram-Mac/Telegram-Mac-Bridging-Header.h";
@@ -5721,10 +5749,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = "Telegram-Mac/Telegram-Mac.entitlements";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				DEVELOPMENT_TEAM = 24NM3W62J4;
 				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -5755,7 +5784,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies -D STABLE";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.keepcoder.Telegram;
+				PRODUCT_BUNDLE_IDENTIFIER = cf.s0ph0s.Telegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Telegram-Mac/Telegram-Mac-Bridging-Header.h";
@@ -5897,11 +5926,12 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = "Telegram-Mac/Telegram-Mac.entitlements";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				DEVELOPMENT_TEAM = 24NM3W62J4;
 				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5933,7 +5963,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies -D BETA";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.keepcoder.Telegram;
+				PRODUCT_BUNDLE_IDENTIFIER = cf.s0ph0s.Telegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
@@ -5956,11 +5986,12 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = "Telegram-Mac/Telegram-Mac.entitlements";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				DEVELOPMENT_TEAM = 24NM3W62J4;
 				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -5992,7 +6023,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies -D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.keepcoder.Telegram;
+				PRODUCT_BUNDLE_IDENTIFIER = cf.s0ph0s.Telegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;

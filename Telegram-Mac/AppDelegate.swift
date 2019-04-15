@@ -72,6 +72,8 @@ class AppDelegate: NSResponder, NSApplicationDelegate, NSUserNotificationCenterD
     private var activity:Any?
     private var executeUrlAfterLogin: String? = nil
 
+    private var preferencesController: NSWindowController?
+
     func applicationWillFinishLaunching(_ notification: Notification) {
        
     }
@@ -860,11 +862,18 @@ class AppDelegate: NSResponder, NSApplicationDelegate, NSUserNotificationCenterD
         window.makeKeyAndOrderFront(sender)
     }
     @IBAction func preferencesAction(_ sender: Any) {
-        
-        if let context = contextValue?.context {
-            context.sharedContext.bindings.mainController().showPreferences()
+        if !(preferencesController != nil) {
+            let storyboard = NSStoryboard(name: "TGPreferences", bundle: nil)
+            preferencesController = storyboard.instantiateInitialController() as? NSWindowController
         }
-        window.makeKeyAndOrderFront(sender)
+        
+        if (preferencesController != nil) {
+            preferencesController?.showWindow(sender)
+        }
+//        if let context = contextValue?.context {
+//            context.sharedContext.bindings.mainController().showPreferences()
+//        }
+//        window.makeKeyAndOrderFront(sender)
 
     }
     @IBAction func closeWindow(_ sender: Any) {
